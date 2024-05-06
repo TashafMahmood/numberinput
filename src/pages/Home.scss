@@ -1,0 +1,75 @@
+.country_select {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    // padding: 2px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  
+    input{
+      outline: none;
+      border: none;
+      padding: 10px 0;
+    //   background-color: red;
+    }
+  }
+  
+  .css-b62m3t-container {
+    // width: 120px;
+  }
+  
+  .css-1u9des2-indicatorSeparator {
+    display: none;
+  }
+  
+  .css-1nmdiq5-menu {
+      min-width: 160px;
+      font-size: 12px;
+    
+      /* Hide the scrollbar */
+      &::-webkit-scrollbar {
+        width: 5px; /* Width of the scrollbar */
+      }
+    
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background: transparent; /* Color of the scrollbar track */
+      }
+    
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: #888; /* Color of the scrollbar handle */
+        border-radius: 5px; /* Roundness of the scrollbar handle */
+      }
+    
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Color of the scrollbar handle on hover */
+      }
+    }
+    
+  
+  
+  .main{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .css-13cymwt-control{
+      border: none !important;
+      outline: none !important;
+      border-radius: 0 !important;
+      border-color: transparent !important;
+  }
+  
+  .css-t3ipsp-control{
+      box-shadow: none !important;
+      border-width: 0 !important;
+      border-radius: 0 !important;
+  
+      &:hover{
+          border-color: transparent !important;
+      }
+  }
